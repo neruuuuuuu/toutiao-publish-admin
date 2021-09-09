@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <div class="login-form-wrap">
-      <div class="login-head">头条后端</div>
+      <div class="login-head">头条后台</div>
       <el-form
         class="login-form"
         ref="form"
