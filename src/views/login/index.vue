@@ -37,6 +37,7 @@
 
 <script>
 import { login } from '@/api/user'
+import { setItem } from '@/utils/storage'
 export default {
   name: 'LoginIndex',
   components: {},
@@ -97,6 +98,11 @@ export default {
           message: '登陆成功',
           type: 'success'
         })
+        setItem('user', data.data)
+        console.log(data.data)
+        this.$router.push({
+          name: 'home'
+        })
       } catch (error) {
         loading.close()
         console.log(error)
@@ -123,7 +129,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(140, 67, 86);
+  background: rgb(136, 173, 166);
   .login-form-wrap {
     background-color: #fff;
     padding: 20px 30px 10px;
