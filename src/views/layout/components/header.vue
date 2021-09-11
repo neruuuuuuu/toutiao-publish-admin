@@ -19,7 +19,7 @@
 </template>
 
 <script>
-// import { getUserProfile } from '@/api/user'
+import { getUserProfile } from '@/api/user'
 export default {
   name: 'AppHeader',
   components: {},
@@ -31,13 +31,13 @@ export default {
   watch: {},
   computed: {},
   methods: {
-    // async loadUserProfile () {
-    //   const data = await getUserProfile()
-    //   console.log(data)
-    // }
+    async loadUserProfile () {
+      const data = await getUserProfile()
+      console.log(data)
+    }
   },
   created () {
-    // this.loadUserProfile()
+    this.loadUserProfile()
   },
   mounted () { }
 }

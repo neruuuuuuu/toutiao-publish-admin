@@ -92,7 +92,7 @@ export default {
         background: 'rgba(0, 0, 0, 0.7)'
       })
       try {
-        const data = await login(this.user)
+        const { data } = await login(this.user)
         console.log(data)
         loading.close()
         this.$message({
