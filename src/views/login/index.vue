@@ -38,6 +38,7 @@
 <script>
 import { login } from '@/api/user'
 import { setItem } from '@/utils/storage'
+
 export default {
   name: 'LoginIndex',
   components: {},
@@ -100,6 +101,7 @@ export default {
         })
         setItem('user', data.data)
         console.log(data.data)
+        this.$store.commit('setUser', data.data)
         this.$router.push({
           name: 'home'
         })
