@@ -47,9 +47,6 @@ export default {
     }
   }
 }
-.el-header {
-  background-color: #b3c0d1;
-}
 
 .el-main {
   background-color: #e9eef3;
