@@ -7,7 +7,7 @@
       <el-header>
         <app-header class="layout-header"></app-header>
       </el-header>
-      <el-main>Main
+      <el-main>
         <!-- 子路由出口 -->
         <router-view />
       </el-main>
@@ -45,6 +45,9 @@ export default {
     .aside-meru {
       height: 100%;
     }
+  }
+  .el-header {
+    border-bottom: 1px solid #888;
   }
 }
 

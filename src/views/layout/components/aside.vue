@@ -11,7 +11,7 @@
       <i class="el-icon-menu"></i>
       <span slot="title">首页</span>
     </el-menu-item>
-    <el-menu-item index="/publish">
+    <el-menu-item index="/article">
       <i class="el-icon-document"></i>
       <span slot="title">内容管理</span>
     </el-menu-item>
@@ -19,7 +19,7 @@
       <i class="el-icon-picture-outline"></i>
       <span slot="title">素材管理</span>
     </el-menu-item>
-    <el-menu-item index="/article">
+    <el-menu-item index="/publish">
       <i class="el-icon-edit"></i>
       <span slot="title">发布文章</span>
     </el-menu-item>

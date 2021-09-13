@@ -48,7 +48,7 @@ export default {
 
 <style lang="less" scoped>
 .header-container {
-  padding: 10px;
+  padding: 10px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
