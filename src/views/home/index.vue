@@ -1,5 +1,14 @@
 <template>
-  <div class="home-container">home</div>
+  <div class="home-container">
+    <el-card class="box-card">
+      <div
+        slot="header"
+        class="clearfix"
+      >
+
+      </div>
+    </el-card>
+  </div>
 </template>
 
 <script>

@@ -59,9 +59,6 @@ export default {
     font-weight: bold;
   }
   .avatar {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
     margin-right: 10px;
   }
 }

@@ -49,9 +49,8 @@ export default {
   .el-header {
     border-bottom: 1px solid #888;
   }
-}
-
-.el-main {
-  background-color: #e9eef3;
+  .el-main {
+    padding: 0;
+  }
 }
 </style>
